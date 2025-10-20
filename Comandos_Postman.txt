@@ -1,0 +1,28 @@
+------------POST-----------
+http://127.0.0.1:5000/Funcionario
+---------------------------
+Body - raw - JSON
+
+{
+  "nome": "Carlos Almeida",
+  "cargo": "Analista",
+  "salario": 4200.00
+}
+
+------------GET-----------
+http://127.0.0.1:5000/Funcionario
+http://127.0.0.1:5000/Funcionario/1
+---------------------------
+
+------------UPDATE-----------
+http://127.0.0.1:5000/Funcionario/1
+-----------------------------
+{
+  "nome": "Carlos Almeida",
+  "cargo": "Analista",
+  "salario": 4200.00
+}
+
+------------DELETE-----------
+http://127.0.0.1:5000/Funcionario/1
+-----------------------------
